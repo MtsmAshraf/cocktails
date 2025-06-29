@@ -2,6 +2,7 @@ import gsap from 'gsap'
 import { ScrollTrigger, SplitText } from 'gsap/all'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
+import Cocktails from './components/Cocktails'
 
 // here we are importing and initiating the plugins ONCE globally in the App.jsx file to use it anywhere in the app
 
@@ -12,6 +13,7 @@ const App = () => {
     <main>
       <NavBar />
       <Hero />
+      <Cocktails />
     </main>
   )
 }
